@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boundry_rect_rounded_background"
+    android:layout_margin="10dp">
+    <!--<ImageButton-->
+        <!--android:id="@+id/add_button"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:layout_marginEnd="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--android:src="@drawable/add_booking"/>-->
+    <TextView
+    android:id="@+id/select_pooja_tv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Select a pooja"
+    android:background="@drawable/rounded_no_bound"
+    android:padding="10dp"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/pooja_search_et"
+        android:layout_below="@+id/select_pooja_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="Search your pooja..."
+        android:padding="10dp"
+        android:background="@drawable/rounded_no_bound"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="#ffffff"
+        android:drawableLeft="@android:drawable/ic_menu_search"/>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="100dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:stretchMode="spacingWidth"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/pooja_search_et"
+        android:clickable="true"
+        android:listSelector="@drawable/boundry_rect_rounded_background"/>
+
+</RelativeLayout>

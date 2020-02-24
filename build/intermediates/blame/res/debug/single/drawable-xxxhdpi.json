@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_lock_outline_black_36dp.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/ic_lock_outline_black_36dp.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/cross.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/cross.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/yello_back_pattern_1.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/yello_back_pattern_1.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/app_icon.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/finalcollagepojo_red.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/finalcollagepojo_red.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_smartphone_black_36dp.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/ic_smartphone_black_36dp.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/custom_preview_256.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/custom_preview_256.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/finalcollagepojo_xxx.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/finalcollagepojo_xxx.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/simple_location_256.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/simple_location_256.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/person_default.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/person_default.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/custom_hint_256.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/custom_hint_256.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/custom_location_256.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xxxhdpi/custom_location_256.png"
+    }
+]

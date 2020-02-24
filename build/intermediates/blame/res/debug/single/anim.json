@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/anim/coming_in_rtl_animation.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/anim/coming_in_rtl_animation.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/anim/button_elevation_change.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/anim/button_elevation_change.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/anim/going_out_rtl_animation.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/anim/going_out_rtl_animation.xml"
+    }
+]

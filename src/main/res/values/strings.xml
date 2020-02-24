@@ -1,0 +1,108 @@
+<resources xmlns:string="http://schemas.android.com/tools">
+    <string name="facebook_app_id">1749174872068344</string>
+    <!--<string name="fb_login_protocol_scheme">fb1749174872068344</string>-->
+
+    <string name="app_name">JaiHo</string>
+    <string name="shared_preference_name">pojoSharedPreference</string>
+    <string name="login_progress_message">Logging In...</string>
+    <string name="booking_in_progress">Booking in progress...</string>
+    <string name="getting_all_bookings_history">Getting all bookings...</string>
+    <string name="updating_password">updating password...</string>
+    <string name="verifying_phone_number">verifying phone number...</string>
+    <string name="registration_progress_message">creating account...</string>
+    <string name="login_success_message">Logged in successfully.</string>
+    <string name="otp_title">Please enter the OTP :</string>
+    <string name="wrong_otp_text">Wrong OTP, please try again.</string>
+    <string name="title_activity_user_home">UserHomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="create_account_message">Please create an account</string>
+    <string name="otp_cancel_message">Please give OTP to continue.</string>
+    <string name="otp_hint">Six digits only.</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="create_account_text">Create account</string>
+    <string name="unidentified_error">Something went wrong. Please try again.</string>
+
+    <string name="device_info_permission_message">We need your permission to read your device identification number.  We use this number to keep you notified.</string>
+    <string name="device_info_permission_title">Permission needed</string>
+    <string name="device_id_permission_text">We need your permission to record your device identification number.  We use this number to keep you notified.</string>
+    <string name="device_info_permission_message_2">We only need your device id to keep you notified about booking progress and other changes. \n Go to<b> Settings &#62; Apps &#62; JaiHo &#62; Permissions</b></string>
+    <string name="device_info_permission_title_2">Permission needed</string>
+
+
+    <string name="confirming_otp">confirming otp...</string>
+    <string name="registration_success_message">Account created successfully. Enjoy our services.</string>
+
+
+    <string name="booking_tab_title">New Booking</string>
+    <string name="city_spinner_hint">select a city</string>
+    <string name="booking_details_title">Booking Details</string>
+    <string name="language_spinner_hint">select a language</string>
+    <string name="prep_spinner_hint">Select who will do pooja arrangements?</string>
+    <string name="history_tab_title">History</string>
+
+    <string-array name="default_city_names">
+        <item>@string/Bangalore</item>
+        <item>@string/Delhi</item>
+        <item>@string/Hyderabad</item>
+        <item>@string/Chennai</item>
+        <item>@string/Gurgaon</item>
+    </string-array>
+
+    <string name="Bangalore">Bangalore</string>
+    <string name="Delhi">Delhi</string>
+    <string name="Hyderabad">Hyderabad</string>
+    <string name="Chennai">Chennai</string>
+    <string name="Gurgaon">Gurgaon</string>
+
+
+    <string-array name="default_languages">
+        <item>@string/Hindi</item>
+        <item>@string/Sanskrit</item>
+    </string-array>
+
+    <string name="Hindi">Hindi</string>
+    <string name="Sanskrit">Sanskrit</string>
+
+    <string name="priest_verification_message">Welcome...Your account creation is in progress. Please take following steps to work with us.
+        \n1. Send your recent photo and photo of your Id-proof (Id with address and your photograph) to <b>JaiHoPanditJi@gmail.com</b>
+        \n2. Get a police verification certificate which is required to work in any company to provide your services.
+        \n3. In the end we will provide you one unique password, that you can use here to login to your account.
+        \n4. Our support team will always stay in contact to assist you through the process. Thank you.</string>
+    <string name="prep_by_priest">Priest will do arrangements for pooja</string>
+    <string name="prep_by_user">I will do arrangements for pooja</string>
+
+    <string name="app_exit_message">DO you want to exit @string/app_name?</string>
+
+    <string name="no_network_access_error">No network access. Please check your internet connection and try again.</string>
+    <string name="Something_went_wrong">Please retry, some error occurred.</string>
+    <string name="user_not_found_login_error">No account found for this combination, Please create an account.</string>
+    <string name="user_active_but_password_wrong_error">Wrong password. Please retry or go to forgot password.</string>
+    <string name="user_found_inactive">No account with this number. Please create an account</string>
+    <string name="already_registered_user">An account already exist with this phone number. Please try login.</string>
+    <string name="password_update_message">Password updated successfully. Try login to your account.</string>
+    <string name="date_validation_error">Please select a valid date.</string>
+    <string name="time_empty_error">Please select start-time for pooja.</string>
+    <string name="time_in_past_error">We do not provide services in past time.</string>
+    <string name="time_improper_error">Please select time at least 1 hour ahead.</string>
+    <string name="booking_address_empty_error">Please provide address for pooja.</string>
+    <string name="booking_address_invalid_error">Sorry, We are currently active in India only. To get the right address, please click on location symbol and go to map.</string>
+    <string name="booking_address_invalid_text">Invalid address</string>
+    <string name="dakshina_amount_error">Please offer a genuine amount for dakshina.</string>
+    <string name="language_not_selected_error">Please select a language.</string>
+    <string name="prep_not_selected_error">Please select who will make arrangements for pooja.</string>
+    <string name="prep_within_limit_hrs_gap_error">Pleases select any time at least 3 hours ahead. Time is needed for preparation.</string>
+    <string name="user_pooja_booking_success_message">Booking Successful. We will notify you shortly when a priest accepts the request.</string>
+    <string name="booking_not_allowed_message">Sorry, booking is not allowed twice on same day for same pooja.</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="no_internet_connection">No internet access, please check your internet connections and try again.</string>
+
+    <string name="alert_settings_button_text">Settings</string>
+    <string name="alert_later_button_text">Later</string>
+    <string name="location_info_permission_title_1">GPS Request</string>
+    <string name="location_info_permission_title_2">GPS Request</string>
+    <string name="location_info_permission_message_1">To enter address, GPS is required.</string>
+    <string name="location_info_permission_message_2">JaiHo uses GPS to get you a valid address on map. To enable it go to settings and give permission.</string>
+
+</resources>

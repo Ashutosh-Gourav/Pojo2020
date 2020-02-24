@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "590317815713",
+    "firebase_url": "https://grounded-primer-153920.firebaseio.com",
+    "project_id": "grounded-primer-153920",
+    "storage_bucket": "grounded-primer-153920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590317815713:android:4147ae28bd572b29",
+        "android_client_info": {
+          "package_name": "com.blisscom.gourava.jaiho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590317815713-qsflk2e5mdoeesoqcp6dm9jq5sj7chkp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blisscom.gourava.jaiho",
+            "certificate_hash": "A979058FFF5D2F52D6EB2A361B9A7EA3958FD479"
+          }
+        },
+        {
+          "client_id": "590317815713-o4ihjhbq95cmiomu6rtlj8l6v5jt3919.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5XjAkpgTmrWddgU5BcgNwHxZrCQRAj80"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590317815713-o4ihjhbq95cmiomu6rtlj8l6v5jt3919.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

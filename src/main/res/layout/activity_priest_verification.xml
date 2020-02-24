@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_priest_verification"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boundry_rect_rounded_background"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_no_bound">
+    <EditText
+        android:drawableLeft="@drawable/ic_smartphone_black_36dp"
+        android:id="@+id/veri_phone_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="#212121"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:minEms="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/trans_rect_back"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_lock_outline_black_36dp"
+        android:id="@+id/veri_password_et"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="#212121"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:hint="Password"
+        android:background="@drawable/trans_rect_back"/>
+
+
+        <Button
+            android:id="@+id/veri_loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:background="@drawable/button_back"
+            android:text="Login"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/user_login"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/priest_verification_message"
+            android:layout_margin="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</RelativeLayout>

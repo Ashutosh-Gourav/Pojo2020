@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xhdpi/booking_list.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xhdpi/booking_list.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xhdpi/new_person_booking.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xhdpi/new_person_booking.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_lock_outline_black_36dp.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xhdpi/ic_lock_outline_black_36dp.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xhdpi/add_booking.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xhdpi/add_booking.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_smartphone_black_36dp.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xhdpi/ic_smartphone_black_36dp.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable-xhdpi/app_icon.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable-xhdpi/app_icon.png"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/raw/allpooja.json",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/raw/allpooja.json"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/raw/poojadetails.json",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/raw/poojadetails.json"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/raw/pojo_templebell_alarm.mp3",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/raw/pojo_templebell_alarm.mp3"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/raw/flag_ohm.mp4",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/raw/flag_ohm.mp4"
+    }
+]

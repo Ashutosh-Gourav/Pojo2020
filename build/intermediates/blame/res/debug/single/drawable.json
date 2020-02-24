@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/boundry_rect_rounded_background.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/boundry_rect_rounded_background.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/button_click_animation.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/button_click_animation.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/gradient_back.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/gradient_back.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/trans_rect_back.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/trans_rect_back.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/filled_radio_circle.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/filled_radio_circle.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/rounded_no_bound.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/rounded_no_bound.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/button_back.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/button_back.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/shadow_back.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/shadow_back.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/rounded_clickables_background.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/rounded_clickables_background.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/circular_back_white.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/circular_back_white.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/trans_circle.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/trans_circle.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/drawable/empty_radio.xml",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/drawable/empty_radio.xml"
+    }
+]

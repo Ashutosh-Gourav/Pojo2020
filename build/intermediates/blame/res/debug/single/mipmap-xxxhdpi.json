@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/app_icon.png",
+        "source": "/Users/gourava/Documents/AndApps/android2020/pojo-app/app/src/main/res/mipmap-xxxhdpi/app_icon.png"
+    }
+]

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880000"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boundry_rect_rounded_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/booking_form_title_pooja_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#55ffffff"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="your selected pooja name"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rounded_no_bound"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/date_ll"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="5dp"
+                        android:background="@drawable/rounded_no_bound"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Date:"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/date_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="dd/mm/yyyy"
+                            android:padding="5dp"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/time_ll"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:paddingLeft="5dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/rounded_no_bound">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Time:"
+                            android:textColor="@android:color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/time_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:hint="hh:mm"
+                            android:padding="5dp"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:id="@+id/pooja_address_label_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:layout_weight="2.5"
+                        android:text="Pooja Place:"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp" />
+                    <ImageView
+                        android:id="@+id/booking_form_address_iv"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/location_64"
+                        android:layout_weight="1.5"
+                        android:layout_gravity="center"/>
+                    <HorizontalScrollView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="6"
+                        android:scrollbars="horizontal">
+
+                        <TextView
+                            android:id="@+id/pooja_street_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:background="@drawable/trans_rect_back"
+                            android:gravity="center_vertical"
+                            android:hint="Get address from map"
+                            android:text="jkfbadsbjadbljabdjabdlvabdfvjbvadjvbafdjbvdbvfdjvdfjv"
+                            android:maxLines="1"
+                            android:paddingLeft="10dp"
+                            android:scrollHorizontally="true"
+                            android:textColor="#212121" />
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Your offer (Dakshina):"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:layout_weight="4"/>
+
+                    <EditText
+                        android:id="@+id/dakshina_et"
+                        android:layout_width="0dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="5"
+                        android:hint="minimum 251"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:background="@drawable/trans_rect_back"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="Rs"
+                        android:textStyle="bold"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/transparent"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Pooja Language:"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:layout_weight="4"/>
+
+                    <Spinner
+                        android:id="@+id/lang_spinner"
+                        android:layout_width="0dp"
+                        style="@android:style/Widget.Spinner"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dropdown"
+                        android:layout_weight="6"></Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="Pooja preparation by:"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:layout_weight="4"/>
+
+                    <Spinner
+                        android:id="@+id/prep_spinner"
+                        style="@android:style/Widget.Spinner"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dropdown"
+                        android:layout_weight="6"></Spinner>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/prep_details_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="end"
+                    android:hint="View preparation details"
+                    android:textColorHint="@android:color/holo_orange_light"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/proceed_booking_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_margin="0dp"
+                    android:background="@drawable/boundry_rect_rounded_background"
+                    android:text="Book"
+                    android:textColor="#ffffff" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880000"
+    tools:context="com.blisscom.gourava.jaiho.activity.WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/boundry_rect_rounded_background"
+        android:layout_margin="10dp"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7">
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/welcome_slide_viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/preview_dots"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal"></LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:background="@drawable/rounded_no_bound"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:weightSum="3">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Enter as a :"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="@android:color/white"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/priest_radio_iv"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/circular_back_white"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="priest"
+                        android:textColor="#ffffff"
+                        android:layout_marginRight="20dp"/>
+                <ImageView
+                    android:id="@+id/user_radio_iv"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/circular_back_white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="user"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+        </LinearLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/user_entry_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/user_login_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/user_login"
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:text="I have a user account"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/holo_orange_dark"/>
+
+                    <TextView
+                        android:id="@+id/create_user_account_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/create_account"
+                        android:gravity="center_vertical"
+                        android:text="Create a user account"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/holo_orange_dark"
+                        android:textStyle="bold" />
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/fb_login_tv"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_margin="5dp"-->
+                        <!--android:drawableLeft="@drawable/fb_icon1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:text="Login with facebook"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:background="#1992e8"/>-->
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/login_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical"/>
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/google_login_tv"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_margin="5dp"-->
+                        <!--android:drawableLeft="@drawable/google_icon"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:text="Login with google"-->
+                        <!--android:textColor="@android:color/white"-->
+                        <!--android:background="@android:color/holo_green_light"/>-->
+
+                    <TextView
+                        android:id="@+id/no_account_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/create_account"
+                        android:gravity="center_vertical"
+                        android:text="Continue as user without account"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/holo_orange_dark"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/priest_entry_ll"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/priest_login_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/user_login"
+                        android:gravity="center_vertical"
+                        android:text="I have a priest account"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/holo_orange_dark"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/priest_create_account_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/create_account"
+                        android:gravity="center_vertical"
+                        android:text="Create new priest account"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/holo_orange_dark"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/priest_test_account_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:drawableLeft="@drawable/create_account"
+                        android:gravity="center_vertical"
+                        android:text="test priest account"
+                        android:textColor="@android:color/white"
+                        android:background="@android:color/holo_orange_dark"
+                        android:textStyle="bold"/>
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/fb_login_tv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:drawableLeft="@drawable/fb_icon1"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="Login with facebook"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:background="#1992e8"/>-->
+
+
+                    <!--<com.facebook.login.widget.LoginButton-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_margin="5dp"-->
+                        <!--android:layout_gravity="center_vertical"/>-->
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/google_login_tv"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--android:drawableLeft="@drawable/google_icon"-->
+                    <!--android:gravity="center_vertical"-->
+                    <!--android:text="Login with google"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:background="@android:color/holo_green_light"/>-->
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_pooja_request_alarm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880000"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/boundry_rect_rounded_background"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:drawableTop="@drawable/app_icon"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/new_pooja_request_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New pooja request has arrived."
+        android:gravity="center"
+        android:textColor="#ffffff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="bottom">
+    <TextView
+        android:id="@+id/reject_reqest_tv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Reject"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_back"/>
+    <TextView
+        android:id="@+id/accept_reqest_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:layout_weight="1"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_back"/>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

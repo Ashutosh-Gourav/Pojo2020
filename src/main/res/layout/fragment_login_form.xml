@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/reg_top_ll"
+    android:background="#880000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:background="@drawable/boundry_rect_rounded_background"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <!--<include-->
+    <!--android:id="@+id/otp_fragment_container"-->
+    <!--layout="@layout/fragment_otp"/>-->
+    <!--<fragment-->
+    <!--android:id="@+id/otp_fragment_container"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:name="com.blisscom.gourava.getblessed.fragment.OtpFragment"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:gravity="center"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/app_icon"/>
+            </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="@drawable/rounded_no_bound">
+
+        <!--<TextView-->
+            <!--android:id="@+id/user_phone_number_validation_error_tv"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:textColor="@android:color/holo_red_dark"-->
+            <!--android:gravity="center"/>-->
+        <EditText
+            android:drawableLeft="@drawable/ic_smartphone_black_36dp"
+            android:id="@+id/phone_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="#212121"
+            android:hint="Phone number"
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:minEms="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/trans_rect_back"/>
+
+            <EditText
+                android:drawableLeft="@drawable/ic_lock_outline_black_36dp"
+                android:id="@+id/password_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:gravity="center_vertical"
+                android:textSize="16sp"
+                android:textColor="#212121"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:hint="Password"
+                android:background="@drawable/trans_rect_back"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:clickable="true"
+            android:background="@drawable/button_back"
+            android:text="Login"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/user_login"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/forgot_password_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password_text"
+            android:clickable="true"
+            android:textSize="14sp"
+            android:layout_margin="30dp"
+            android:textColor="@android:color/white"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Create account"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/button_back"
+            android:drawableLeft="@drawable/create_account"/>
+    </LinearLayout>
+        </ScrollView>
+        </LinearLayout>
+
+</LinearLayout>

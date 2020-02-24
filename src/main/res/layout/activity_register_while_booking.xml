@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="#880000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:background="@drawable/boundry_rect_rounded_background">
+
+        <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/app_icon"/>-->
+
+        <TextView
+            android:id="@+id/create_account_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create account"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_margin="10dp"
+            android:drawableLeft="@drawable/app_icon"/>
+
+        <ScrollView
+            android:id="@+id/registration_form_scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_no_bound"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:id="@+id/userRegForm_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/trans_rect_back">
+                    <TextView
+                        android:id="@+id/name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:text="Name:"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"/>
+                    <EditText
+                        android:layout_toRightOf="@+id/name_tv"
+                        android:layout_alignParentRight="true"
+                        android:id="@+id/register_user_name_et"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:hint="Your full name"
+                        android:textSize="16sp"
+                        android:padding="5dp"
+                        android:inputType="textPersonName"
+                        android:maxLines="1"
+                        android:background="#00ffffff"
+                        android:gravity="center"
+                        android:textColor="#212121"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/trans_rect_back">
+                    <TextView
+                        android:id="@+id/phone_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:text="Phone Number:"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"/>
+                    <EditText
+                        android:layout_toRightOf="@+id/phone_tv"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:id="@+id/register_user_phone_ET"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:padding="5dp"
+                        android:hint="10 digits only"
+                        android:textSize="16sp"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:maxLength="10"
+                        android:background="#00ffffff"
+                        android:textColor="#212121"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/trans_rect_back">
+                    <TextView
+                        android:id="@+id/pwd_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:text="Password:"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"/>
+                    <EditText
+                        android:layout_toRightOf="@+id/pwd_tv"
+                        android:layout_toLeftOf="@+id/see_iv"
+                        android:gravity="center"
+                        android:id="@+id/register_user_pwd_et"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:hint="Password"
+                        android:textSize="16sp"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:padding="5dp"
+                        android:layout_weight="9"
+                        android:background="#00ffffff"
+                        android:textColor="#212121"/>
+
+                    <ImageView
+                        android:id="@+id/see_iv"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/preview_128"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/trans_rect_back">
+                    <TextView
+                        android:id="@+id/mail_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:text="Email Id:"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"/>
+                    <EditText
+
+                        android:layout_toRightOf="@+id/mail_tv"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:id="@+id/register_user_mail_et"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:hint="Email Id"
+                        android:textSize="16sp"
+                        android:padding="5dp"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="#212121"
+                        android:background="#00ffffff" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/trans_rect_back">
+                    <TextView
+                        android:id="@+id/address_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:text="Address:"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"/>
+                    <HorizontalScrollView
+                        android:layout_toRightOf="@+id/address_tv"
+                        android:layout_toLeftOf="@+id/loc_iv"
+                        android:id="@+id/tv_container_hs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:scrollbars="horizontal"
+                        android:scrollbarStyle="insideOverlay"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/register_user_address_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:minEms="12"
+                            android:background="@drawable/trans_rect_back"
+                            android:gravity="center_vertical"
+                            android:hint="Get address on map ->"
+                            android:maxLines="1"
+                            android:paddingLeft="10dp"
+                            android:scrollHorizontally="true"
+                            android:textColor="#212121" />
+                    </HorizontalScrollView>
+                    <!--<TextView-->
+                    <!--android:layout_toRightOf="@+id/address_tv"-->
+                    <!--android:layout_toLeftOf="@+id/loc_iv"-->
+                    <!--android:gravity="center"-->
+                    <!--android:id="@+id/register_user_address_et"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:hint="Get address from map"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:textSize="16sp"-->
+                    <!--android:inputType="textPostalAddress"-->
+                    <!--android:scrollbarAlwaysDrawVerticalTrack="true"-->
+                    <!--android:maxLines="3"-->
+                    <!--android:textColor="#212121"/>-->
+
+                    <ImageView
+                        android:id="@+id/loc_iv"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/location_64"/>
+                </RelativeLayout>
+                <Button
+                    android:id="@+id/userRegButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:background="@drawable/button_back"
+                    android:text="Create"
+                    android:textSize="20sp"
+                    android:clickable="true"
+                    android:textColor="@android:color/white"
+                    android:typeface="serif"
+                    android:ems="10"
+                    android:textAllCaps="false"
+                    android:paddingBottom="5dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/priestRegFormLayout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:hint="Name*"-->
+    <!--android:textSize="25sp" />-->
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:hint="Phone Number*"-->
+    <!--android:textSize="25sp" />-->
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:hint="Email ID"-->
+    <!--android:textSize="25sp" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Expertise*"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:textSize="25sp"/>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<CheckBox-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:text="Marriage" />-->
+
+    <!--<CheckBox-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:text="HouseWarming" />-->
+
+    <!--<CheckBox-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:text="Birthday" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<CheckBox-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="20dp"-->
+    <!--android:text="All" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<EditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="20dp"-->
+    <!--android:hint="Address*"-->
+    <!--android:textSize="25sp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/priestRegButton"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:background="@drawable/login_button"-->
+    <!--android:text="submit" />-->
+
+    <!--</LinearLayout>-->
+
